@@ -33,7 +33,7 @@ O Stuxnet é um malware de computador altamente sofisticado, criado para atacar 
 
 🧠 Como o Stuxnet enganava o sistema SCADA  
 
-O Stuxnet fazia algo genial e maligno ao mesmo tempo: ele alterava o comportamento real das máquinas industriais, mas enganava os humanos que estavam monitorando tudo pelo computador.
+O Stuxnet fazia algo genial: ele alterava o comportamento real das máquinas industriais, mas enganava os humanos que estavam monitorando tudo pelo computador.
 
 ⚙️ Esquema Simplificado  
 
