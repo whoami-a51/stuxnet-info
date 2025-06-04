@@ -31,23 +31,13 @@ O Stuxnet é um malware de computador altamente sofisticado, criado para atacar 
 
 ⸻
 
-🧠 Como o Stuxnet enganava o sistema SCADA – explicação simples com esquema
+🧠 Como o Stuxnet enganava o sistema SCADA  
 
 O Stuxnet fazia algo genial e maligno ao mesmo tempo: ele alterava o comportamento real das máquinas industriais, mas enganava os humanos que estavam monitorando tudo pelo computador.
 
 ⚙️ Esquema Simplificado  
 
-+---------------------------+      +---------------------+      +------------------+  
-| Operador Humano           | ---> | Sistema SCADA       | ---> | CLP (PLC)        |  
-| (monitorando na tela)     |      | (tipo WinCC/Siemens)|      |(controla máquina)|  
-+---------------------------+      +---------------------+      +------------------+  
-                                          ↑                            |  
-                                          |                            ↓  
-                                 +--------------------------------------------+  
-                                 |              STUXNET                       |  
-                                 | - Injeta código falso nos CLPs             |  
-                                 | - Modifica dados que voltam pro SCADA      |  
-                                 +--------------------------------------------+  
+ ![descrição](/stuxnet.png)  
                                  
 
 🔍 O que ele fazia exatamente?  
@@ -57,7 +47,7 @@ O Stuxnet fazia algo genial e maligno ao mesmo tempo: ele alterava o comportamen
  3. Ocultava os dados reais: quando o CLP mandava os dados de volta pro sistema SCADA, o Stuxnet alterava os valores de volta pros “normais”.  
  4. O operador via a máquina funcionando “perfeitamente”, mas na real ela estava sendo sabotada por dentro.
 
-🛠️ Exemplo técnico (simplificado):
+🛠️ Exemplo técnico:  
 
 Imagina que o CLP controla a rotação de uma centrífuga com esse código:  
 ```SetSpeed(centrifuga, 1064 RPM) ```  
