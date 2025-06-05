@@ -113,7 +113,8 @@ Uma vez dentro de um PC com o Step 7:
 
 ⸻
 
-🔹 5. Persistência e camuflagem  
+🔹 5. Persistência e camuflagem 
+
  • Se escondia como driver legítimo com assinatura digital roubada da Realtek e JMicron.  
  • Usava rootkit pra esconder arquivos, processos e comunicações.  
  • Se autodeletava após a missão, dependendo da variante.  
